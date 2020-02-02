@@ -16,6 +16,8 @@ export class RoomDetailsService {
 
 export interface detailsInterFace {
   img: string;
+  img1: string;
+  img2: string;
   heading: string;
   price: string;
   type: string;
