@@ -8,7 +8,7 @@ import { RoomDetailsComponent } from "./rooms/room-details/room-details.componen
 import { GalleryComponent } from "./gallery/gallery.component";
 
 const routes: Routes = [
-  { path: "home", component: PhotosComponent },
+  { path: "", component: PhotosComponent },
   {
     path: "rooms",
     component: RoomsComponent,
