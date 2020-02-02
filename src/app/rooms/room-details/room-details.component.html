@@ -1,6 +1,6 @@
 <div class="jumbotron" style="background-color: transparent;">
   <div class="row">
-    <div class="col-lg-5">
+    <div class="col-lg-6">
       <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -45,19 +45,25 @@
         </a>
       </div>
     </div>
-    <div class="col-lg-1">
-      <br />
-    </div>
 
-    <div class="col-lg-6" style="text-align: left;">
-      <h4>{{ test.heading }}</h4>
-      <hr />
-      <h5>{{ test.price }}</h5>
-      <h5>{{ test.type }}</h5>
-      <h5>{{ test.size }}</h5>
-      <br /><br />
-      <hr />
-      <h4>Contact : Pandurang - 9762957667</h4>
+    <div class="col-lg-3" style="text-align: left;">
+      <div class="card h-75" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{ test.heading }}</h5>
+          <p class="card-text">{{ test.price }}</p>
+          <p class="card-text">{{ test.type }}</p>
+          <p class="card-text">{{ test.size }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3" style="text-align: left;">
+      <div class="card h-75" style="width: 18rem;">
+        <div class="card-body id=card1">
+          <h5 class="card-title">Contact us</h5>
+          <p>Name : Pandurang</p>
+          <p>Contact : 9762957667</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

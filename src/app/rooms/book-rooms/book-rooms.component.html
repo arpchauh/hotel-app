@@ -3,19 +3,30 @@
     <div class="row mb-5">
       <div class="col">
         <h1>Our Rooms</h1>
+        <hr />
       </div>
     </div>
+    <br />
+
     <div class="row">
       <div
-        class="col-lg-3 col-md-6"
+        class="col-lg-3  "
         *ngFor="let roomDetail of roomDetails; let i = index"
       >
-        <div class="card" (click)="goToRoomDetails(roomDetail)">
+        <div
+          class="card "
+          (click)="goToRoomDetails(roomDetail)"
+          style="width: 15rem;"
+        >
+          <img
+            class="card-img-top"
+            src="{{ roomDetail.img }}"
+            alt="Card image cap"
+          />
           <div class="card-body">
-            <img src="{{ roomDetail.img }}" alt="" class="img" />
-            <h3>{{ roomDetail.heading }}</h3>
+            <h5>{{ roomDetail.heading }}</h5>
             <h5>{{ roomDetail.price }}</h5>
-            <p>{{ roomDetail.type }}</p>
+            <p class="card-text">{{ roomDetail.type }}</p>
           </div>
         </div>
       </div>

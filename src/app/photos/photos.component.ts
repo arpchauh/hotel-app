@@ -13,11 +13,11 @@ export class PhotosComponent implements OnInit {
   ngOnInit() {
     this.photos.push(
       {
-        imagePath: "https://i.ibb.co/P9Q73YR/sea.jpg"
+        imagePath: "https://i.ibb.co/G07MDV9/Beach2.jpg"
       },
 
       {
-        imagePath: "https://i.ibb.co/0q8SLjk/beach.jpg"
+        imagePath: "https://i.ibb.co/j3pWTMK/Beach3.jpg"
       }
     );
   }

@@ -2,13 +2,29 @@ h4,
 h3 {
   font-size: 36px;
   color: #555;
-  font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Poppins", sans-serif;
 }
 h5 {
   font-size: 24px;
   color: #333;
-  font-weight: bold;
-  font-style: italic;
-  font-family: "Times New Roman", Times, serif;
+
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  margin: 5px;
+}
+
+.card {
+  border-radius: 0;
+  box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.308);
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+
+@media only screen and (max-width: 600px) {
+  #card1 {
+    height: 100% !important;
+  }
 }

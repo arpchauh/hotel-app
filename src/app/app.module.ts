@@ -9,6 +9,7 @@ import { BookRoomsComponent } from "./rooms/book-rooms/book-rooms.component";
 import { AppRoutingModule } from "./app-routing.module";
 import { RouterModule } from "@angular/router";
 import { RoomDetailsComponent } from './rooms/room-details/room-details.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RoomDetailsComponent } from './rooms/room-details/room-details.componen
     PhotosComponent,
     RoomsComponent,
     BookRoomsComponent,
-    RoomDetailsComponent
+    RoomDetailsComponent,
+    GalleryComponent
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
   providers: [],

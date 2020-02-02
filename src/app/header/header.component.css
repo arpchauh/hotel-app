@@ -1,9 +1,18 @@
 .navbar {
   padding: 0.5rem;
+  position: absolute;
+  background-color: transparent !important;
+  width: 100%;
+  z-index: 2;
 }
+
 .navbar-nav li {
   padding-right: 15px;
 }
 .nav-link {
   font-size: 1.1em !important;
+}
+.navbar .navbar-nav > li > a:hover {
+  color: burlywood !important;
+  font-family: "Poppins", sans-serif;
 }

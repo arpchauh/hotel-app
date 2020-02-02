@@ -1,0 +1,21 @@
+<div class="ml-3" style="margin-top:8%">
+  <div
+    class="row d-flex justify-content-center align-item-center"
+    style="width: 100%;"
+  >
+    <div class="col-sm-3 mr-3 mb-3" *ngFor="let gallery of galleryImg">
+      <div class="card" style="width: 18rem;">
+        <img
+          class="card-img-top"
+          src="{{ gallery.url }}"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            {{ gallery.name }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
