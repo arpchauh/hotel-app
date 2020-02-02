@@ -8,7 +8,30 @@
     </div>
     <br />
 
-    <div class="row">
+    <div class="container">
+      <div class="row padding">
+        <div
+          class="col-sm-3 "
+          (click)="goToRoomDetails(roomDetail)"
+          *ngFor="let roomDetail of roomDetails; let i = index"
+        >
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="{{ roomDetail.img }}"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5>{{ roomDetail.heading }}</h5>
+              <h5>{{ roomDetail.price }}</h5>
+              <p class="card-text">{{ roomDetail.type }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row">
       <div
         class="col-lg-3  "
         *ngFor="let roomDetail of roomDetails; let i = index"
@@ -30,6 +53,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>

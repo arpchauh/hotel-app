@@ -22,9 +22,3 @@ p {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
 }
-
-@media only screen and (max-width: 600px) {
-  #card1 {
-    height: 100% !important;
-  }
-}

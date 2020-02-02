@@ -56,8 +56,19 @@ h3 {
   box-shadow: 5px 5px 10px #9e9e9e;
 }
 
+.card {
+  margin-bottom: 15%;
+}
 #rooms .card:hover h3,
 #rooms .card:hover h5,
 #rooms .card:hover p {
   color: black;
+}
+
+@media (min-width: 768px) {
+  .col-lg-3 {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
 }

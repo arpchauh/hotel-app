@@ -22,6 +22,22 @@ export class GalleryComponent implements OnInit {
     {
       name: "Sindudurg Fort",
       url: "https://i.ibb.co/qWJ3B0h/sindhudurg-fort.jpg"
+    },
+    {
+      name: "Rock Beach",
+      url: "https://i.ibb.co/7p0QRHb/Rock-Beach.jpg"
+    },
+    {
+      name: "Scuba in Tarkarli",
+      url: "https://i.ibb.co/p310X3s/Tarkarli-Scuba.jpg"
+    },
+    {
+      name: "Scuba",
+      url: "https://i.ibb.co/F40pWQF/Scuba.jpg"
+    },
+    {
+      name: "Sindudurg Airport",
+      url: "https://i.ibb.co/XsxV1Lh/Sindhudurg-Airport.jpg"
     }
   ];
 

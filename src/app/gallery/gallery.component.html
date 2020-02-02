@@ -1,19 +1,19 @@
-<div class="ml-3" style="margin-top:8%">
-  <div
-    class="row d-flex justify-content-center align-item-center"
-    style="width: 100%;"
-  >
-    <div class="col-sm-3 mr-3 mb-3" *ngFor="let gallery of galleryImg">
-      <div class="card" style="width: 18rem;">
-        <img
-          class="card-img-top"
-          src="{{ gallery.url }}"
-          alt="Card image cap"
-        />
+<div class="container my-3 py-5 text-center">
+  <div class="row ">
+    <div class="col">
+      <h1>Places to Visit</h1>
+      <hr />
+    </div>
+  </div>
+</div>
+
+<div class="container  text-center">
+  <div class="row padding">
+    <div class="col-md-4" *ngFor="let gallery of galleryImg">
+      <div class="card">
+        <img class="card-img-top" src="{{ gallery.url }}" alt="" />
         <div class="card-body">
-          <p class="card-text">
-            {{ gallery.name }}
-          </p>
+          <h4 class="title">{{ gallery.name }}</h4>
         </div>
       </div>
     </div>
