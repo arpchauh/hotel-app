@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a
+      [routerLink]="['/home']"
+      routerLinkActive="router-link-active"
+      class="navbar-brand"
+      ><img
+        style="height: 40px; width: 100px;"
+        class="img-responsive"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4sOio6ia83CmnFC78osIpqIkW9nibSM8_sPrSx_dnYvAcmAOC&s"
+        alt="Responsive image"
+    /></a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarColor01"
+      aria-controls="navbarColor01"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"> </span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav navbar-right mr-auto w-100 justify-content-end">
+        <li class="nav-item ">
+          <a
+            class="nav-link"
+            [routerLink]="['/home']"
+            routerLinkActive="router-link-active"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item "><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item ">
+          <a
+            class="nav-link"
+            [routerLink]="['/rooms/book-rooms']"
+            routerLinkActive="router-link-active"
+            >Booking</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

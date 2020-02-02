@@ -1,0 +1,14 @@
+h4,
+h3 {
+  font-size: 36px;
+  color: #555;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+h5 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}

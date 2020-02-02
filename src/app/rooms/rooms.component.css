@@ -1,0 +1,62 @@
+.book-room-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 1000px;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}
+h1 {
+  font-size: 36px;
+  color: #555;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+#rooms img {
+  margin-top: -50px;
+}
+
+#rooms i {
+  font-size: 26px;
+  color: #555;
+}
+
+#rooms li {
+  font-weight: 500;
+}
+
+#rooms .card {
+  border-radius: 0;
+  box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.308);
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+
+#rooms .card:hover {
+  background: rgba(128, 128, 128, 0.308);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#rooms .card:hover h3,
+#rooms .card:hover h5,
+#rooms .card:hover li {
+  color: black;
+}
