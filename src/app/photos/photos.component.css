@@ -1,7 +1,3 @@
-#carouselExampleIndicators .carousel-item {
-  height: 568px;
-}
-
 .overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.55);
@@ -15,4 +11,9 @@
 h5 {
   color: White;
   font-family: "Poppins", sans-serif;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 568px;
+  object-fit: cover;
 }
