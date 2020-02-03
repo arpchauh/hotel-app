@@ -22,3 +22,40 @@ p {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
 }
+
+@media screen and (max-width: 1200px) {
+  .card {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #card1 {
+    margin-top: 3%;
+    padding-bottom: 4%;
+    padding-top: auto;
+  }
+  #card2 {
+    margin-top: 0%;
+    padding-bottom: 4%;
+    padding-top: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  #card1 {
+    margin-top: 3%;
+    padding-bottom: 8%;
+    padding-top: auto;
+  }
+  #card2 {
+    margin-top: 0%;
+    padding-bottom: 8%;
+    padding-top: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #cardMarginTop {
+    margin-top: 8%;
+  }
+}
