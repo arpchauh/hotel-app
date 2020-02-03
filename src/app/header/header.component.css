@@ -16,3 +16,7 @@
   color: burlywood !important;
   font-family: "Poppins", sans-serif;
 }
+
+.navbar-toggler {
+  background-color: rgba(0, 0, 0, 0.55);
+}
